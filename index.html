@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de Dias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/icon.png">
+
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/logo.png" alt="">
+        </a>
+        <nav class="condiciones">
+            <a href="Condiciones.html">Conditions</a>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1>¡Cuenta tus días de clases y gana tu premio!</h1>
+    </div>
+    <div class="barraProgreso">
+        <div class="progreso" id="miProgreso"></div>
+    </div>
+
+    <div class="contenedor-principal">
+        <div class="contadorDias">
+            <div class="item">
+                <h3>Días <br>Asistidos</h3>
+                <h2 id="diasAsistidos">N</h2>
+            </div>
+            <div class="separador"></div>
+            <div class="item">
+                <h3>Días <br>Restantes</h3>
+                <h2 id="diasRestantes">N</h2>
+            </div>
+        </div>
+    </div>
+    <div class="boton">
+        <button onclick="aumentarProgreso()" >Hoy fui al cole</button>
+    </div>
+
+    <div class="animo">
+        <div class="img">
+            <img src="img/mensaje.png" alt="" class="oso">
+        </div>
+        <div class="mensaje">
+            <img src="img/motivacion.png" alt="" class="mensaje">
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>

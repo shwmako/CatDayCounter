@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', 'sans-serif';
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background-color: white;
+}
+
+header a img{
+    width: 50px;
+    height: 50px;
+}
+
+.condiciones a {
+    color: #473831;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.titulo h1{
+    color: #473831;
+    text-align: center;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px; 
+    padding: 15px;
+}
+
+.titulo{
+    margin-top: 100px;
+}
+
+.barraProgreso {
+    width: 80%;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px auto;
+    position: relative;
+}
+
+.progreso {
+    height: 100%;
+    width: 0%;
+    background-color: #F199AC;
+    transition: width 0.5s ease-in-out;
+}
+
+
+.contenedor-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contadorDias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%; 
+    max-width: 400px; 
+    padding: 20px;
+    border: 2px solid #6B4F3F; 
+    border-radius: 20px; 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.item {
+    flex: 1;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #473831;
+    font-weight: 700;
+    font-style: normal; 
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #473831;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.separador {
+    width: 2px;
+    height: 50px;
+    background-color: #6B4F3F; 
+}
+
+.boton {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    margin-top: 20px; 
+}
+
+.boton button {
+    background-color: #FFEFCE; 
+    color: #473831; 
+    font-size: 16px;
+    font-weight: bold;
+    border: none; 
+    padding: 12px 24px; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    transition: 0.3s ease-in-out; 
+}
+.boton button:hover {
+    background-color: #F5E1B8; 
+}
+
+.animo {
+    display: flex;
+    align-items: flex-start;  /* Alinea los elementos arriba */
+    justify-content: center;  /* Centra horizontalmente */
+    margin-top: 30px;
+    position: relative;
+}
