@@ -4,7 +4,7 @@ const diasRestantesEl = document.getElementById("diasRestantes");
 const progresoEl = document.getElementById("miProgreso");
 
 // Configurar valores iniciales
-const totalDias = 20; // Cambia este número según el total de días posibles
+const totalDias = 20; 
 let diasAsistidos = localStorage.getItem("diasAsistidos") 
     ? parseInt(localStorage.getItem("diasAsistidos")) 
     : 0;
@@ -18,7 +18,7 @@ progresoEl.style.width = (diasAsistidos / totalDias) * 100 + "%";
 function aumentarProgreso() {
     if (diasAsistidos < totalDias) {
         diasAsistidos++; // Incrementa los días asistidos
-        localStorage.setItem("diasAsistidos", diasAsistidos); // Guarda en localStorage
+        localStorage.setItem("diasAsistidos", diasAsistidos); 
 
         // Actualiza los valores en la interfaz
         diasAsistidosEl.innerText = diasAsistidos;
@@ -32,9 +32,8 @@ function aumentarProgreso() {
 
 function resetearProgreso() {
     diasAsistidos = 0; // Reiniciar contador
-    localStorage.setItem("diasAsistidos", diasAsistidos); // Guardar en localStorage
+    localStorage.setItem("diasAsistidos", diasAsistidos); 
 
-    // Actualizar interfaz
     diasAsistidosEl.innerText = diasAsistidos;
     diasRestantesEl.innerText = totalDias;
     progresoEl.style.width = "0%";

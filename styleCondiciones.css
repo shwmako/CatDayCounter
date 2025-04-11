@@ -29,13 +29,13 @@ header a img{
 }
 
 .condiciones a {
-    color: #473831;
+    color: #2F2F2F;
     font-weight: 600;
     font-style: normal;
 }
 
 .titulo h1{
-    color: #473831;
+    color: #2F2F2F;
     text-align: center;
     font-weight: 600;
     font-style: normal;
@@ -48,7 +48,7 @@ header a img{
 }
 
 .contenido p {
-    color: #473831;
+    color: #2F2F2F;
     font-weight: 500;
     font-style: normal;
     text-align: center;
@@ -69,8 +69,8 @@ header a img{
 }
 
 .boton button {
-    background-color: #FFEFCE; 
-    color: #473831; 
+    background-color: #F9CED4; 
+    color: #2F2F2F; 
     font-size: 16px;
     font-weight: bold;
     border: none; 
@@ -81,7 +81,7 @@ header a img{
     margin-left: 15px;
 }
 .boton button:hover {
-    background-color: #F5E1B8; 
+    background-color: #F9C0C6; 
 }
 
 .img {

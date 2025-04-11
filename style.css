@@ -29,13 +29,13 @@ header a img{
 }
 
 .condiciones a {
-    color: #473831;
+    color: #2F2F2F;
     font-weight: 600;
     font-style: normal;
 }
 
 .titulo h1{
-    color: #473831;
+    color: #2F2F2F;
     text-align: center;
     font-weight: 600;
     font-style: normal;
@@ -60,7 +60,7 @@ header a img{
 .progreso {
     height: 100%;
     width: 0%;
-    background-color: #F199AC;
+    background-color: #F9CED4;
     transition: width 0.5s ease-in-out;
 }
 
@@ -78,7 +78,7 @@ header a img{
     width: 80%; 
     max-width: 400px; 
     padding: 20px;
-    border: 2px solid #6B4F3F; 
+    border: 2px solid #F9C0C6; 
     border-radius: 20px; 
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -92,7 +92,7 @@ header a img{
 h3 {
     font-size: 16px;
     font-weight: 600;
-    color: #473831;
+    color: #2F2F2F;
     font-weight: 700;
     font-style: normal; 
 }
@@ -100,7 +100,7 @@ h3 {
 h2 {
     font-size: 20px;
     font-weight: bold;
-    color: #473831;
+    color: #2F2F2F;
     font-weight: 700;
     font-style: normal;
 }
@@ -108,7 +108,7 @@ h2 {
 .separador {
     width: 2px;
     height: 50px;
-    background-color: #6B4F3F; 
+    background-color: #F9C0C6; 
 }
 
 .boton {
@@ -120,8 +120,8 @@ h2 {
 }
 
 .boton button {
-    background-color: #FFEFCE; 
-    color: #473831; 
+    background-color: #F9CED4; 
+    color: #2F2F2F; 
     font-size: 16px;
     font-weight: bold;
     border: none; 
@@ -131,7 +131,7 @@ h2 {
     transition: 0.3s ease-in-out; 
 }
 .boton button:hover {
-    background-color: #F5E1B8; 
+    background-color: #F9C0C6; 
 }
 
 .animo {
